@@ -20,7 +20,7 @@ class Investors implements Comparable<Investors>{
 		return this.networth < inv.networth ? 1: this.networth == inv.networth ? 0: -1;
 	}
 }
-public class MainClass {
+public class Top_3_Investors {
 
 	public static void main(String[] args) {
 		List<Investors> inv_list = new ArrayList<>();
